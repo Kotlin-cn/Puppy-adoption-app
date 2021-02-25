@@ -9,5 +9,17 @@
       or implied. See the License for the specific language governing permissions and limitations under
       the License.
       -->
-    <string name="app_name">AndroidDevChallenge</string>
+    <string name="app_name">Puppy</string>
+    <string name="dogs_introduction">These lovely dogs come from a TV show named PAW Patrol,
+        PAW Patrol is a Canadian CGI–animated children\'s television series created by
+        Keith Chapman (also the creator of Bob the Builder). It is produced by Spin Master
+        Entertainment, with animation provided by Guru Studio. In Canada, the series is primarily
+        broadcast on TVOKids, which first ran previews of the show in August 2013.
+        The series premiered on Nickelodeon in the United States on August 12, 2013.
+    </string>
+    <string name="details">Details</string>
+    <string name="height">Height: %.2f Cm</string>
+    <string name="weight">Weight: %.2f Kg</string>
+    <string name="breed">Breed: %s </string>
+    <string name="skills">Skills</string>
 </resources>
