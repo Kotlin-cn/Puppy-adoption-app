@@ -90,7 +90,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// Start building your app here!
+// Start building your app here !
 @Composable
 fun MyApp(backDispatcher: OnBackPressedDispatcher) {
     val navigator: Navigator<Destination> = rememberSaveable(
@@ -137,7 +137,6 @@ fun PetHome(openPet: (Long) -> Unit) {
                 PetItem(
                     item = pet,
                     onItemClick = openPet,
-                    index = index
                 )
             }
         }
@@ -147,9 +146,7 @@ fun PetHome(openPet: (Long) -> Unit) {
 @Composable
 fun PetItem(
     item: Pet,
-    onItemClick: (Long) -> Unit,
-    modifier: Modifier = Modifier,
-    index: Int = 0
+    onItemClick: (Long) -> Unit
 ) {
     Card(
         elevation = 0.dp,
